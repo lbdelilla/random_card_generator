@@ -1,1 +1,62 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-image: url("poker.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Marhey", cursive;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 50px;
+  text-shadow: 0.1em 0.1em #333;
+}
+.card {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgb(68, 68, 68);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.number {
+  align-self: center;
+  font-size: 130px;
+}
+.symbol {
+  margin: 15px 30px;
+  font-size: 130px;
+}
+.up {
+  align-self: flex-start;
+}
+.down {
+  align-self: flex-end;
+}
+.by {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  color: aliceblue;
+  text-shadow: 0.1em 0.1em #333;
+}
+.btn {
+  background-color: rgb(178, 4, 4);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-family: "Marhey", cursive;
+  padding: 5px;
+  border-width: 1px;
+  border-color: rgb(222, 131, 131);
+}
+
+.buttongrt {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
